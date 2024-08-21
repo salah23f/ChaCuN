@@ -86,7 +86,7 @@ class PointsTest {
         assertEquals(10, Points.forLogboat(5));
     }
 
-    @Test Sf230104()
+    @Test
     void pointsForRaftWorksForKnownCases() {
         assertEquals(1, Points.forRaft(1));
         assertEquals(2, Points.forRaft(2));
